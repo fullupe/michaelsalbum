@@ -17,7 +17,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: 'Nkansah & Joyce Wedding Album',
+  title: 'Michael & Ephraim Wedding Album',
   description: 'A beautiful collection of memories from our special day',
 };
 
