@@ -51,4 +51,4 @@ export default function PhotoDetail({ photo }: PhotoDetailProps) {
     </div>
   );
 }
-//export const revalidate = 0 ;
+export const revalidate = 0 ;
