@@ -50,17 +50,17 @@ async function getComments(photoId: string): Promise<Comment[]> {
   //return sampleComments.filter(comment => comment.photo_id === photoId);
 }
 
-export async function generateStaticParams() {
-  // When connected to Supabase, replace with:
-  const { data } = await supabase.from('photos_michael').select('id');
-  return data?.map((photo) => ({
-    id: photo.id,
-  })) || [];
+// export async function generateStaticParams() {
+//   // When connected to Supabase, replace with:
+//   const { data } = await supabase.from('photos_michael').select('id');
+//   return data?.map((photo) => ({
+//     id: photo.id,
+//   })) || [];
   
-  // return samplePhotos.map((photo) => ({
-  //   id: photo.id,
-  // }));
-}
+//   // return samplePhotos.map((photo) => ({
+//   //   id: photo.id,
+//   // }));
+// }
 
 export async function generateMetadata({
   params,
